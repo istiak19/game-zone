@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Shared styles */
+
+.flex{
+    display: flex;
+}
+
+/* Navbar styles */
+
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 200px;
+}
+
+.nav-text{
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    color: #F948B2;
+}
+
+.nav-img{
+    width: 70px;
+    height: 30px;
+    margin-right: 7px;
+}
+
+.nav-title{
+    font-size: 2.81rem;
+    font-weight: bold;
+}
+
+.links{
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #08FFF9;
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Play Like The */
+
+.content-1{
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    /* padding: 10px 200px 0; */
+    background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%,rgba(241, 68, 174, 0.03) 100.54%);
+}
+
+.c1-title-1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.c1-title-2{
+    color: #F948B2;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.c1-desco{
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.btn-1{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+    background-color: #F948B2;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 45px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.btn-2{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+    background-color: #4EC5F7;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 45px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.images>img{
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and ( max-width: 576px ) {
+    .navbar,
+    .links{
+        flex-direction: column;
+    }
+
+    .content-1 {
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+
+    .navbar{
+        margin: 35px 80px;
+        gap: 20px;
+    }
+
+    .links{
+        gap: 10px;
+    }
+
+}
