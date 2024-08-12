@@ -4,61 +4,61 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 /* Shared styles */
 
-.flex{
+.flex {
     display: flex;
 }
 
 /* Navbar styles */
 
-.navbar{
+.navbar {
     align-items: center;
     justify-content: space-between;
     margin: 35px 200px;
 }
 
-.nav-text{
+.nav-text {
     justify-content: center;
     align-items: center;
 }
 
-.color{
+.color {
     color: #F948B2;
 }
 
-.nav-img{
+.nav-img {
     width: 70px;
     height: 30px;
     margin-right: 7px;
 }
 
-.nav-title{
+.nav-title {
     font-size: 2.81rem;
     font-weight: bold;
 }
 
-.links{
+.links {
     list-style: none;
     gap: 30px;
     justify-content: center;
     align-items: center;
 }
 
-.link{
+.link {
     color: #3C354F;
     font-size: 1.125rem;
     font-weight: 500;
 }
 
-.btn{
+.btn {
     background-color: #08FFF9;
     color: #3C354F;
     font-size: 1.125rem;
@@ -70,34 +70,34 @@
 
 /* Play Like The */
 
-.content-1{
+.content-1 {
     justify-content: center;
     align-items: center;
     gap: 250px;
     /* padding: 10px 200px 0; */
-    background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%,rgba(241, 68, 174, 0.03) 100.54%);
+    background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%, rgba(241, 68, 174, 0.03) 100.54%);
 }
 
-.c1-title-1{
+.c1-title-1 {
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 20px;
 }
 
-.c1-title-2{
+.c1-title-2 {
     color: #F948B2;
     font-size: 5rem;
     font-weight: bolder;
 }
 
-.c1-desco{
+.c1-desco {
     font-size: 1.12rem;
     font-weight: 500;
     color: #534C64;
 }
 
-.btn-1{
+.btn-1 {
     font-size: 1.125rem;
     font-weight: 500;
     color: white;
@@ -109,7 +109,7 @@
     margin-right: 20px;
 }
 
-.btn-2{
+.btn-2 {
     font-size: 1.125rem;
     font-weight: 500;
     color: white;
@@ -121,14 +121,305 @@
     margin-right: 20px;
 }
 
-.images>img{
+.images>img {
     width: 100%;
     height: 500px;
 }
 
-@media screen and ( max-width: 576px ) {
+/* We are gamer */
+
+.content-2 {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 90px 170px;
+    background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%, rgba(241, 68, 174, 0.03) 100.54%);
+}
+
+.content-2>img {
+    width: 100%;
+    height: 480px;
+}
+
+.content-2-text {
+    text-align: right;
+}
+
+.c2-title-1 {
+    color: #F948B2;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.c2-desco {
+    color: #534C64;
+    font-size: 0.87rem;
+}
+
+.btn-3 {
+    font-weight: 600;
+    font-size: 1.12rem;
+    background-color: #F948B2;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 45px;
+    margin: 12px 0;
+}
+
+.c2-desco-1 {
+    color: #534C64;
+    font-size: 1.375rem;
+}
+
+.c2-title-2 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Online Games Funny Videos */
+
+.text {
+    text-align: center;
+    margin: 100px 0 45px;
+}
+
+.text-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text-desco {
+    font-size: 0.87rem;
+    color: #534C64;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+    margin: 0 100px;
+}
+
+.box>img {
+    width: 300px;
+    height: 350px;
+}
+
+.box-position {
+    text-align: center;
+    background-image: url(../images/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+}
+
+.t {
+    color: white;
+    font-size: 3.25rem;
+}
+
+.p-desco {
+    color: #F948B2;
+    font-weight: 600;
+}
+
+.card-desco {
+    color: #534C64;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+/* Play Instantly */
+
+.content-4 {
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+    margin: 100px 200px 120px;
+}
+
+.c4-text {
+    text-align: end;
+}
+
+.c4-img>img {
+    width: 530px;
+    height: 550px;
+}
+
+.c4-img-2>img {
+    width: 285px;
+    height: 300px;
+}
+
+.c4-img {
+    position: relative;
+}
+
+.c4-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.c4-img-2 {
+    position: absolute;
+    left: -150px;
+    bottom: -100px;
+}
+
+.c4-desco {
+    font-size: 0.87rem;
+    color: #534C64;
+    margin-top: 12px;
+}
+
+/* Online Game */
+
+.content-5 {
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+    margin: 0 200px 180px;
+}
+
+.c5-img-2 {
+    position: absolute;
+    right: -125px;
+    bottom: -100px;
+}
+
+.c5-img>img {
+    width: 530px;
+    height: 550px;
+}
+
+.c5-img-2>img {
+    width: 285px;
+    height: 300px;
+}
+
+.c5-img {
+    position: relative;
+}
+
+.c5-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+/* Careers */
+
+.content-6{
+    justify-content: center;
+    align-items: center;
+    background-color: #F948B2;
+}
+
+.c6-text{
+    padding: 0 0 0 200px;
+}
+
+.c6-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.c6-desco{
+    font-size: 0.87rem;
+    color: white;
+}
+.c6-img>img{
+    width: 600px;
+    height: 650px;
+}
+
+.btn-4{
+    background-color: white;
+    color: #F948B2;
+    border-radius: 48px;
+    border: none;
+    padding: 20px 30px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+/* Ball styles */
+/* Footer styles */
+
+.bg-color{
+    background-color: #0B0223;
+    padding: 120px 0;
+}
+
+.foot{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.f-text{
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.text-desco{
+    font-weight: 600;
+    font-size: 1.12rem;
+    color: white;
+}
+
+.f-logo{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.logo{
+    font-size: 2.25rem;
+    margin-right: 40px;
+}
+
+.p-text{
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-desco{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.c-desco{
+    text-align: center;
+    margin-top: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+
     .navbar,
-    .links{
+    .links,
+    .content-2,
+    .cards,
+    .content-4,
+    .content-5,
+    .content-6 {
         flex-direction: column;
     }
 
@@ -137,13 +428,83 @@
         gap: 100px;
     }
 
-    .navbar{
+    .navbar {
         margin: 35px 80px;
         gap: 20px;
     }
 
-    .links{
+    .links {
         gap: 10px;
     }
 
+    .content-2 {
+        padding: 40px;
+    }
+
+    .cards {
+        margin: 0 50px;
+    }
+
+    .text-title {
+        font-size: 2.25rem;
+    }
+
+    .content-4,
+    .content-5 {
+        margin: 50px 10px 0;
+        gap: 50px;
+    }
+
+    .content-6{
+        margin-top: 50px;
+        gap: 30px;
+        padding: 40px 0;
+    }
+    .c4-img>img,
+    .c5-img>img,
+    .c6-img>img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .c4-img-2>img,
+    .c5-img-2>img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .c4-img-2 {
+        left: -50px;
+        bottom: -50px;
+    }
+
+    .c5-img-2 {
+        right: -50px;
+        bottom: -50px;
+    }
+
+    .c4-text,
+    .c5-text {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .c6-text{
+        text-align: center;
+        padding: 0;
+    }
+
+    .f-text{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .p-text{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0 40px;
+    }
 }
