@@ -396,7 +396,7 @@
 }
 
 .bal:hover{
-    border: 2px solid #FF42A5;
+   outline: 2px solid #FF42A5;
     color: #F948B2;
 }
 
